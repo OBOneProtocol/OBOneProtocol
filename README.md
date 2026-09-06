@@ -20,20 +20,13 @@
 
 ---
 
-### 🧠 Current Swarm & Product Work (September 2026)
+### 🧠 Engineering Focus
 
-- **Agent orchestration system:** Private multi-agent architecture with CLOUD
-  as the lead gate, GPT-5.6 Sol for deep specialists, and Gemini Flash for
-  cost-efficient triage and reconnaissance.
-- **PayoffPath:** Private, local-only debt payoff planner with avalanche/
-  snowball simulation, subscription audit, negotiation-script drafting, and
-  balance-transfer analysis. No accounts, tracking, credentials, or remote
-  financial actions.
-- **Career Ops:** Merged contributions for context-budget hardening (#3591) and
-  project-scoped Playwright MCP detection (#3711), including the original issue
-  diagnosis and regression tests.
-- **Security-focused engineering:** Prowler KMS scan-error handling and
-  Ponytail OpenClaw publishing shell-injection hardening.
+- Designing reliable, human-reviewed software and AI-assisted engineering
+  workflows.
+- Building full-lifecycle systems across cloud infrastructure, automation,
+  application development, and defensive security.
+- Turning complex technical work into clear, testable, maintainable tools.
 
 ---
 
@@ -77,7 +70,7 @@ I contribute well-tested, production-grade solutions across diverse open-source 
 
 ---
 
-### 🏆 Achievements & Recent Activity
+### 🏆 Public Activity & Achievements
 
 - **Career Ops PR #3591:** Merged context-budget hardening with explicit-null
   coverage and shared tracker-path resolution.
@@ -86,10 +79,10 @@ I contribute well-tested, production-grade solutions across diverse open-source 
 - **Prowler PR #12722:** KMS `ListKeys` scan-error handling and cross-service
   failure-state hardening.
 - **Ponytail PR #795:** OpenClaw skill-publishing shell-injection hardening.
-- **ipatool PR #1:** App Store purchase-by-App-ID support in the fork.
-- **GitHub achievements:** Quickdraw, YOLO, and Pair Extraordinaire were
-  triggered through the private badge-earner project. Pull Shark remains under
-  GitHub status verification after the account rename.
+- **ipatool:** App Store purchase-by-App-ID support in the public fork.
+- **GitHub achievements:** Quickdraw, YOLO, and Pair Extraordinaire are
+  reflected in the account's recent activity. Pull Shark remains under
+  GitHub status verification.
 
 ---
 
