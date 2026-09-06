@@ -13,30 +13,25 @@
 </p>
 
 <p align="center">
-  <i>Building full-lifecycle software solutions: full-stack systems, automated pipelines, cloud infrastructure, and autonomous agent orchestration.</i>
+  <i>Designing and shipping reliable software, cloud automation, defensive tooling, and AI-assisted engineering workflows.</i>
 </p>
 
 </div>
 
 ---
 
-### 🧠 Engineering Focus
+### 🚀 What I Build
 
-- Designing reliable, human-reviewed software and AI-assisted engineering
-  workflows.
-- Building full-lifecycle systems across cloud infrastructure, automation,
-  application development, and defensive security.
-- Turning complex technical work into clear, testable, maintainable tools.
-
----
-
-### 🚀 Core Engineering Domains
-
-- 💻 **Full-Stack & Systems Engineering**: Modular web applications, backend APIs, low-level utilities, and developer toolchains in C, TypeScript, Node.js, and Python.
-- ⚙️ **Automation, Tooling & Media Pipelines**: Headless browser automation (Playwright/MCP), media processing (FFmpeg), and automated developer workflows.
-- 🤖 **Autonomous AI & Multi-Agent Workflows**: Deterministic orchestration layers, specialized task routing, and reproducible evaluation benchmarks.
-- 🛡️ **Cloud Infrastructure & Reliability**: Secure AWS architectures (KMS, MSK, IAM), containerized environments, and cloud compliance engineering.
-- 🔒 **Security Research & Defensive Hardening**: Proactive vulnerability assessment, threat modeling, and defensive validation across distributed systems.
+- **Software and developer platforms:** High-quality applications, APIs,
+  systems utilities, and developer tools across C, TypeScript, Node.js, and
+  Python.
+- **Intelligent automation:** Playwright/MCP integrations, deterministic
+  multi-agent workflows, specialized task routing, and reproducible evaluation.
+- **Cloud reliability and security:** Containerized infrastructure, AWS
+  reliability and compliance engineering, threat modeling, and defensive
+  hardening for distributed systems.
+- **Delivery acceleration:** Testable CI/CD automation and media-processing
+  pipelines that turn complex operations into dependable workflows.
 
 ---
 
@@ -61,29 +56,21 @@
 
 ---
 
-### 🤝 Open Source Contributions
+### 🏆 Selected Public Work
 
-I contribute well-tested, production-grade solutions across diverse open-source ecosystems:
-- **[prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)** — AWS KMS scan error propagation & unretrieved key detail handling.
-- **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** — Multi-tier configuration resolution, CLI doctor tooling & Playwright MCP integration.
-- **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** — Toolchain and workflow automation.
+Selected public contributions spanning reliability, security, and developer
+tooling:
 
----
-
-### 🏆 Public Activity & Achievements
-
-- **Career Ops PR #3711:** Implemented project-scoped Playwright MCP
-  detection with precedence-aware configuration resolution and hermetic
-  regression coverage, closing issue #3698.
-- **Prowler PR #12722:** Hardened AWS KMS `ListKeys` error propagation to
-  prevent empty inventories and unverified cross-service compliance results.
-- **Ponytail PR #795:** Replaced shell-mediated OpenClaw skill publishing with
-  argument-vector execution and regression coverage for command-injection
-  resistance.
-- **GitHub achievements:** Quickdraw, YOLO, and Pair Extraordinaire are
-  reflected in recent account activity. Pull Shark remains under GitHub
-  status verification.
-
+- **[Career Ops PR #3711](https://github.com/career-ops-hq/career-ops/pull/3711):**
+  Added project-scoped Playwright MCP detection with precedence-aware
+  configuration resolution and hermetic regression coverage, closing issue
+  #3698.
+- **[Prowler PR #12722](https://github.com/prowler-cloud/prowler/pull/12722):**
+  Hardened AWS KMS `ListKeys` error propagation to prevent empty inventories
+  and unverified compliance results.
+- **[Ponytail PR #795](https://github.com/DietrichGebert/ponytail/pull/795):**
+  Replaced shell-mediated skill publishing with argument-vector execution and
+  regression coverage for command-injection resistance.
 ---
 
 ### 📊 GitHub Activity & Metrics
