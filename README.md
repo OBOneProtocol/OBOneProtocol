@@ -20,7 +20,7 @@
 
 ---
 
-### 🚀 What I Have Built
+### 🚀 What I Build
 
 - **Software and developer platforms:** High-quality applications, APIs,
   systems utilities, and developer tools across C, TypeScript, Node.js, and
