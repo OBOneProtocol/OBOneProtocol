@@ -3,13 +3,13 @@
 # Hi there, I'm Jesse <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" alt="wave" />
 
 <!-- Animated Dynamic Typing Banner -->
-<a href="https://github.com/n6p975v4v4-cyber">
+<a href="https://github.com/OBOneProtocol">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=2EA44F&center=true&vCenter=true&width=650&lines=Cloud+%26+Application+Engineer;Multi-Agent+AI+Systems+Architect;Defensive+Security+Researcher;Open+Source+Contributor" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <a href="https://github.com/n6p975v4v4-cyber"><img src="https://img.shields.io/github/followers/n6p975v4v4-cyber?style=for-the-badge&color=2ea44f&labelColor=161b22&logo=github" alt="Followers" /></a>
-  <a href="https://github.com/n6p975v4v4-cyber"><img src="https://img.shields.io/badge/Open_Source-Active_Contributor-388bfd?style=for-the-badge&labelColor=161b22&logo=git" alt="OSS Contributor" /></a>
+  <a href="https://github.com/OBOneProtocol"><img src="https://img.shields.io/github/followers/OBOneProtocol?style=for-the-badge&color=2ea44f&labelColor=161b22&logo=github" alt="Followers" /></a>
+  <a href="https://github.com/OBOneProtocol"><img src="https://img.shields.io/badge/Open_Source-Active_Contributor-388bfd?style=for-the-badge&labelColor=161b22&logo=git" alt="OSS Contributor" /></a>
 </p>
 
 <p align="center">
@@ -77,12 +77,28 @@ I contribute well-tested, production-grade solutions across diverse open-source 
 
 ---
 
+### 🏆 Achievements & Recent Activity
+
+- **Career Ops PR #3591:** Merged context-budget hardening with explicit-null
+  coverage and shared tracker-path resolution.
+- **Career Ops PR #3711:** Merged project-scoped Playwright MCP detection,
+  closing issue #3698 with hermetic regression tests.
+- **Prowler PR #12722:** KMS `ListKeys` scan-error handling and cross-service
+  failure-state hardening.
+- **Ponytail PR #795:** OpenClaw skill-publishing shell-injection hardening.
+- **ipatool PR #1:** App Store purchase-by-App-ID support in the fork.
+- **GitHub achievements:** Quickdraw, YOLO, and Pair Extraordinaire were
+  triggered through the private badge-earner project. Pull Shark remains under
+  GitHub status verification after the account rename.
+
+---
+
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=n6p975v4v4-cyber&theme=tokyonight" alt="GitHub Stats" height="180px" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=OBOneProtocol&theme=tokyonight" alt="GitHub Stats" height="180px" />
   &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com/?user=n6p975v4v4-cyber&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" height="180px" />
+  <img src="https://streak-stats.demolab.com/?user=OBOneProtocol&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" height="180px" />
 </div>
 
 ---
