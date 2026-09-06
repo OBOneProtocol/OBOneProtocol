@@ -72,17 +72,17 @@ I contribute well-tested, production-grade solutions across diverse open-source 
 
 ### 🏆 Public Activity & Achievements
 
-- **Career Ops PR #3591:** Merged context-budget hardening with explicit-null
-  coverage and shared tracker-path resolution.
-- **Career Ops PR #3711:** Merged project-scoped Playwright MCP detection,
-  closing issue #3698 with hermetic regression tests.
-- **Prowler PR #12722:** KMS `ListKeys` scan-error handling and cross-service
-  failure-state hardening.
-- **Ponytail PR #795:** OpenClaw skill-publishing shell-injection hardening.
-- **ipatool:** App Store purchase-by-App-ID support in the public fork.
+- **Career Ops PR #3711:** Implemented project-scoped Playwright MCP
+  detection with precedence-aware configuration resolution and hermetic
+  regression coverage, closing issue #3698.
+- **Prowler PR #12722:** Hardened AWS KMS `ListKeys` error propagation to
+  prevent empty inventories and unverified cross-service compliance results.
+- **Ponytail PR #795:** Replaced shell-mediated OpenClaw skill publishing with
+  argument-vector execution and regression coverage for command-injection
+  resistance.
 - **GitHub achievements:** Quickdraw, YOLO, and Pair Extraordinaire are
-  reflected in the account's recent activity. Pull Shark remains under
-  GitHub status verification.
+  reflected in recent account activity. Pull Shark remains under GitHub
+  status verification.
 
 ---
 
