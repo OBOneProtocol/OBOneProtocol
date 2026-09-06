@@ -20,6 +20,23 @@
 
 ---
 
+### 🧠 Current Swarm & Product Work (September 2026)
+
+- **Agent orchestration system:** Private multi-agent architecture with CLOUD
+  as the lead gate, GPT-5.6 Sol for deep specialists, and Gemini Flash for
+  cost-efficient triage and reconnaissance.
+- **PayoffPath:** Private, local-only debt payoff planner with avalanche/
+  snowball simulation, subscription audit, negotiation-script drafting, and
+  balance-transfer analysis. No accounts, tracking, credentials, or remote
+  financial actions.
+- **Career Ops:** Merged contributions for context-budget hardening (#3591) and
+  project-scoped Playwright MCP detection (#3711), including the original issue
+  diagnosis and regression tests.
+- **Security-focused engineering:** Prowler KMS scan-error handling and
+  Ponytail OpenClaw publishing shell-injection hardening.
+
+---
+
 ### 🚀 Core Engineering Domains
 
 - 💻 **Full-Stack & Systems Engineering**: Modular web applications, backend APIs, low-level utilities, and developer toolchains in C, TypeScript, Node.js, and Python.
