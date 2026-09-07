@@ -26,7 +26,8 @@
   systems utilities, and developer tools across C, TypeScript, Node.js, and
   Python.
 - **Intelligent automation:** Playwright/MCP integrations, deterministic
-  multi-agent workflows, specialized task routing, and reproducible evaluation.
+  multi-agent workflows, continuity-preserving task orchestration, and
+  high-capability review gates around cost-efficient routine execution.
 - **Cloud reliability and security:** Containerized infrastructure, AWS
   reliability and compliance engineering, threat modeling, and defensive
   hardening for distributed systems.
