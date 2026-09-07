@@ -27,7 +27,7 @@
   Python.
 - **Intelligent automation:** Playwright/MCP integrations, deterministic
   multi-agent workflows, continuity-preserving task orchestration, and
-  high-capability review gates around cost-efficient routine execution.
+  high-capability review gates around bounded routine execution.
 - **Cloud reliability and security:** Containerized infrastructure, AWS
   reliability and compliance engineering, threat modeling, and defensive
   hardening for distributed systems.
