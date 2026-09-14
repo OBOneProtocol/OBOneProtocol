@@ -62,13 +62,27 @@
 Selected public contributions spanning reliability, security, and developer
 tooling:
 
+**Merged**
+
 - **[Career Ops PR #3711](https://github.com/career-ops-hq/career-ops/pull/3711):**
   Added project-scoped Playwright MCP detection with precedence-aware
   configuration resolution and hermetic regression coverage, closing issue
   #3698.
+- **[Career Ops PR #3591](https://github.com/career-ops-hq/career-ops/pull/3591):**
+  First accepted contribution to Career Ops, merged after CodeRabbit and
+  maintainer review.
+
+**Open / Under Review**
+
+- **[Grafana PR #132436](https://github.com/grafana/grafana/pull/132436):**
+  Fixed a Canvas inline text-editor freeze caused by an unbounded `useEffect`
+  cleanup loop, with added regression coverage for rerender-while-editing.
 - **[Prowler PR #12722](https://github.com/prowler-cloud/prowler/pull/12722):**
   Hardened AWS KMS `ListKeys` error propagation to prevent empty inventories
-  and unverified compliance results.
+  and unverified compliance results; 256/256 tests passing.
+- **[Career Ops PR #4090](https://github.com/career-ops-hq/career-ops/pull/4090):**
+  Sealed updater Git fixtures against ambient `GIT_CONFIG_*` environment
+  leakage, closing issue #3801.
 - **[Ponytail PR #795](https://github.com/DietrichGebert/ponytail/pull/795):**
   Replaced shell-mediated skill publishing with argument-vector execution and
   regression coverage for command-injection resistance.
