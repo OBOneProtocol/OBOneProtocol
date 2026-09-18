@@ -65,12 +65,16 @@ tooling:
 **Merged**
 
 - **[Career Ops PR #3711](https://github.com/career-ops-hq/career-ops/pull/3711):**
-  Added project-scoped Playwright MCP detection with precedence-aware
+  Implemented project-scoped Playwright MCP detection with precedence-aware
   configuration resolution and hermetic regression coverage, closing issue
   #3698.
 - **[Career Ops PR #3591](https://github.com/career-ops-hq/career-ops/pull/3591):**
-  First accepted contribution to Career Ops, merged after CodeRabbit and
-  maintainer review.
+  Hardened context-budget prompt assembly and routing for tracker checks,
+  enhancing agent reliability in high-token scenarios.
+- **[Ponytail PR #795](https://github.com/DietrichGebert/ponytail/pull/795):**
+  Replaced shell-mediated skill publishing with argument-vector execution and
+  regression coverage for command-injection resistance.
+
 
 **Open / Under Review**
 
@@ -83,9 +87,6 @@ tooling:
 - **[Career Ops PR #4090](https://github.com/career-ops-hq/career-ops/pull/4090):**
   Sealed updater Git fixtures against ambient `GIT_CONFIG_*` environment
   leakage, closing issue #3801.
-- **[Ponytail PR #795](https://github.com/DietrichGebert/ponytail/pull/795):**
-  Replaced shell-mediated skill publishing with argument-vector execution and
-  regression coverage for command-injection resistance.
 ---
 
 ### 📊 GitHub Activity & Metrics
