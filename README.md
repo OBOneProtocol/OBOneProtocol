@@ -81,6 +81,7 @@
 - **[Prowler #12722](https://github.com/prowler-cloud/prowler/pull/12722)** —
   KMS `ListKeys` scan-error handling to avoid treating failed scans as valid
   empty results.
+
 ---
 
 ### 📊 GitHub Activity & Metrics
