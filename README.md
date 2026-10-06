@@ -59,34 +59,28 @@
 
 ### 🏆 Selected Public Work
 
-Selected public contributions spanning reliability, security, and developer
-tooling:
+**Projects**
 
-**Merged**
+- **[LLMOps Infra Guide](https://github.com/OBOneProtocol/llmops-infra-guide)**
+  — an Ollama-backed Dockerfile-generation prototype that detects project
+  stacks and uses build errors for iterative correction. Its README records
+  sample runs for Flask, Node.js, and Go.
 
-- **[Career Ops PR #3711](https://github.com/career-ops-hq/career-ops/pull/3711):**
-  Implemented project-scoped Playwright MCP detection with precedence-aware
-  configuration resolution and hermetic regression coverage, closing issue
-  #3698.
-- **[Career Ops PR #3591](https://github.com/career-ops-hq/career-ops/pull/3591):**
-  Hardened context-budget prompt assembly and routing for tracker checks,
-  enhancing agent reliability in high-token scenarios.
-- **[Ponytail PR #795](https://github.com/DietrichGebert/ponytail/pull/795):**
-  Replaced shell-mediated skill publishing with argument-vector execution and
-  regression coverage for command-injection resistance.
+**Merged contributions**
 
+- **[Career Ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**
+  — added project-scoped Playwright MCP detection with precedence-aware
+  configuration and regression coverage.
+- **[Career Ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
+  — hardened context-budget prompt assembly and tracker-path handling.
 
-**Open / Under Review**
+**Open pull requests** · status checked October 6, 2026
 
-- **[Grafana PR #132436](https://github.com/grafana/grafana/pull/132436):**
-  Fixed a Canvas inline text-editor freeze caused by an unbounded `useEffect`
-  cleanup loop, with added regression coverage for rerender-while-editing.
-- **[Prowler PR #12722](https://github.com/prowler-cloud/prowler/pull/12722):**
-  Hardened AWS KMS `ListKeys` error propagation to prevent empty inventories
-  and unverified compliance results; 256/256 tests passing.
-- **[Career Ops PR #4090](https://github.com/career-ops-hq/career-ops/pull/4090):**
-  Sealed updater Git fixtures against ambient `GIT_CONFIG_*` environment
-  leakage, closing issue #3801.
+- **[Grafana #132436](https://github.com/grafana/grafana/pull/132436)** —
+  proposed fix for a Canvas inline text-editor freeze during rerender.
+- **[Prowler #12722](https://github.com/prowler-cloud/prowler/pull/12722)** —
+  KMS `ListKeys` scan-error handling to avoid treating failed scans as valid
+  empty results.
 ---
 
 ### 📊 GitHub Activity & Metrics
