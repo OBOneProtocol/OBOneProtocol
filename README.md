@@ -62,9 +62,9 @@
 **Projects**
 
 - **[LLMOps Infra Guide](https://github.com/OBOneProtocol/llmops-infra-guide)**
-  — an Ollama-backed Dockerfile-generation prototype that detects project
-  stacks and uses build errors for iterative correction. Its README records
-  sample runs for Flask, Node.js, and Go.
+  — local-LLM Dockerfile-generation prototype that detects project stacks and
+  uses Docker build feedback for iterative correction. Documented samples cover
+  Flask, Node.js, and Go.
 
 **Merged contributions**
 
@@ -74,13 +74,11 @@
 - **[Career Ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
   — hardened context-budget prompt assembly and tracker-path handling.
 
-**Open pull requests** · status checked October 6, 2026
+**Open pull request**
 
-- **[Grafana #132436](https://github.com/grafana/grafana/pull/132436)** —
-  proposed fix for a Canvas inline text-editor freeze during rerender.
 - **[Prowler #12722](https://github.com/prowler-cloud/prowler/pull/12722)** —
-  KMS `ListKeys` scan-error handling to avoid treating failed scans as valid
-  empty results.
+  handles KMS `ListKeys` scan errors and prevents unverified cross-service
+  failures.
 
 ---
 
