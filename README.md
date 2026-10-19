@@ -1,71 +1,99 @@
-# Jesse
+<div align="center">
 
-> Building dependable software, automation, and cloud workflows—with a focus
-> on clear scope, testable behavior, and maintainable delivery.
+# Hi there, I'm Jesse <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" alt="wave" />
+
+<!-- Animated Dynamic Typing Banner -->
+<a href="https://github.com/OBOneProtocol">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=2EA44F&center=true&vCenter=true&width=650&lines=Cloud+%26+Application+Engineer;Multi-Agent+AI+Systems+Architect;Defensive+Security+Researcher;Open+Source+Contributor" alt="Typing SVG" />
+</a>
 
 <p align="center">
-  <a href="#focus">Focus</a> ·
-  <a href="#selected-public-work">Selected work</a> ·
-  <a href="#tools-and-ecosystems">Tools</a> ·
-  <a href="https://github.com/OBOneProtocol">GitHub</a>
+  <a href="https://github.com/OBOneProtocol"><img src="https://img.shields.io/github/followers/OBOneProtocol?style=for-the-badge&color=2ea44f&labelColor=161b22&logo=github" alt="Followers" /></a>
+  <a href="https://github.com/OBOneProtocol"><img src="https://img.shields.io/badge/Open_Source-Active_Contributor-388bfd?style=for-the-badge&labelColor=161b22&logo=git" alt="OSS Contributor" /></a>
 </p>
 
 <p align="center">
-  <img src="assets/engineering-loop.svg" alt="Diagram of a reviewable engineering loop: scope, build, check, review, then evidence-informed feedback to scope." width="840">
+  <i>Designing and shipping reliable software, cloud automation, defensive tooling, and AI-assisted engineering workflows.</i>
+</p>
+
+</div>
+
+---
+
+### 🚀 What I Build
+
+- **Software and developer platforms:** High-quality applications, APIs,
+  systems utilities, and developer tools across C, TypeScript, Node.js, and
+  Python.
+- **Intelligent automation:** Playwright/MCP integrations, deterministic
+  multi-agent workflows, continuity-preserving task orchestration, and
+  high-capability review gates around bounded routine execution.
+- **Cloud reliability and security:** Containerized infrastructure, AWS
+  reliability and compliance engineering, threat modeling, and defensive
+  hardening for distributed systems.
+- **Delivery acceleration:** Testable CI/CD automation and media-processing
+  pipelines that turn complex operations into dependable workflows.
+
+---
+
+### 🛠️ Tech Stack & Ecosystems
+
+<p align="left">
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <br/>
+  <!-- Cloud & Automation -->
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 ---
 
-## Focus
+### 🏆 Selected Public Work
 
-- **Software and developer tools** — applications, APIs, system utilities, and
-  workflow tooling.
-- **Automation and AI-assisted engineering** — browser automation, task
-  orchestration, and reviewable, deterministic workflows.
-- **Cloud reliability and defensive engineering** — containerized systems,
-  delivery automation, threat modeling, and practical hardening.
-
-## Selected Public Work
-
-### Project
+**Projects**
 
 - **[LLMOps Infra Guide](https://github.com/OBOneProtocol/llmops-infra-guide)**
-  An Ollama-backed Dockerfile-generation prototype. Its documentation records
-  stack detection and iterative build-error correction examples for Flask,
-  Node.js, and Go.
+  — an Ollama-backed Dockerfile-generation prototype that detects project
+  stacks and uses build errors for iterative correction. Its README records
+  sample runs for Flask, Node.js, and Go.
 
-### Merged Contributions
+**Merged contributions**
 
 - **[Career Ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**
-  Added project-scoped Playwright MCP detection with precedence-aware
+  — added project-scoped Playwright MCP detection with precedence-aware
   configuration and regression coverage.
 - **[Career Ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
-  Hardened context-budget prompt assembly and tracker-path handling.
+  — hardened context-budget prompt assembly and tracker-path handling.
 
-### Current Public Work
+**Open pull requests** · status checked October 6, 2026
 
-- **[Prowler #12722](https://github.com/prowler-cloud/prowler/pull/12722)**
-  KMS `ListKeys` scan-error handling so failed scans are not represented as
-  valid empty results.
-
-Project and pull-request pages are the source of truth for implementation
-details and current review status.
-
-## Tools and Ecosystems
-
-**Languages:** C · TypeScript · JavaScript · Python · Bash
-
-**Platforms and tooling:** AWS · Docker · Linux · Playwright · FFmpeg · GitHub
-Actions
-
-## Working Approach
-
-I prefer small, understandable changes backed by evidence: establish the
-problem, make the scope explicit, validate behavior, and keep decisions easy
-to review.
+- **[Grafana #132436](https://github.com/grafana/grafana/pull/132436)** —
+  proposed fix for a Canvas inline text-editor freeze during rerender.
+- **[Prowler #12722](https://github.com/prowler-cloud/prowler/pull/12722)** —
+  KMS `ListKeys` scan-error handling to avoid treating failed scans as valid
+  empty results.
 
 ---
 
-<p align="center">
-  <sub>Explore <a href="https://github.com/OBOneProtocol">public repositories</a> and linked contribution history.</sub>
-</p>
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=OBOneProtocol&theme=tokyonight" alt="GitHub Stats" height="180px" />
+  &nbsp;&nbsp;
+  <img src="https://streak-stats.demolab.com/?user=OBOneProtocol&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" height="180px" />
+</div>
+
+---
+
+<div align="center">
+  <sub>⚡ <i>"Engineer modular systems, automate the tedious, and verify everything with rigorous tests."</i></sub>
+</div>
