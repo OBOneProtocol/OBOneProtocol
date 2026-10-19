@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" role="img" aria-labelledby="title desc">
+  <title id="title">Reviewable engineering loop</title>
+  <desc id="desc">A compact loop connecting Scope, Build, Check, and Review, with a feedback path from review to scope.</desc>
+  <rect width="840" height="180" rx="16" fill="#f8fafc"/>
+  <path d="M214 85h48m154 0h48m154 0h48" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <path d="M730 120c0 32-620 32-620 0" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <path d="m254 77 10 8-10 8m202-16 10 8-10 8m202-16 10 8-10 8M120 148l10 8 10-8" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <rect x="46" y="41" width="168" height="88" rx="12" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+    <text x="130" y="94" fill="#0c4a6e" font-size="22" font-weight="700">Scope</text>
+    <rect x="262" y="41" width="154" height="88" rx="12" fill="#ecfdf5" stroke="#047857" stroke-width="3"/>
+    <text x="339" y="94" fill="#064e3b" font-size="22" font-weight="700">Build</text>
+    <rect x="464" y="41" width="154" height="88" rx="12" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
+    <text x="541" y="94" fill="#7c2d12" font-size="22" font-weight="700">Check</text>
+    <rect x="666" y="41" width="128" height="88" rx="12" fill="#f3e8ff" stroke="#7e22ce" stroke-width="3"/>
+    <text x="730" y="94" fill="#581c87" font-size="22" font-weight="700">Review</text>
+  </g>
+  <text x="420" y="166" fill="#334155" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">evidence-informed feedback</text>
+</svg>

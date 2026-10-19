@@ -10,6 +10,10 @@
   <a href="https://github.com/OBOneProtocol">GitHub</a>
 </p>
 
+<p align="center">
+  <img src="assets/engineering-loop.svg" alt="Diagram of a reviewable engineering loop: scope, build, check, review, then evidence-informed feedback to scope." width="840">
+</p>
+
 ---
 
 ## Focus
