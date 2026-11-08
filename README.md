@@ -1,97 +1,99 @@
-<div align="center">
-
-# Hi there, I'm Jesse <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" alt="wave" />
-
-<!-- Animated Dynamic Typing Banner -->
-<a href="https://github.com/OBOneProtocol">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=2EA44F&center=true&vCenter=true&width=650&lines=Cloud+%26+Application+Engineer;Multi-Agent+AI+Systems+Architect;Defensive+Security+Researcher;Open+Source+Contributor" alt="Typing SVG" />
-</a>
-
 <p align="center">
-  <a href="https://github.com/OBOneProtocol"><img src="https://img.shields.io/github/followers/OBOneProtocol?style=for-the-badge&color=2ea44f&labelColor=161b22&logo=github" alt="Followers" /></a>
-  <a href="https://github.com/OBOneProtocol"><img src="https://img.shields.io/badge/Open_Source-Active_Contributor-388bfd?style=for-the-badge&labelColor=161b22&logo=git" alt="OSS Contributor" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img src="assets/header-light.svg" alt="Jesse / O-B-ONE — cloud and application engineer, multi-agent AI systems, defensive security" width="880">
+  </picture>
 </p>
 
 <p align="center">
-  <i>Designing and shipping reliable software, cloud automation, defensive tooling, and AI-assisted engineering workflows.</i>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg">
+    <img src="assets/now-light.svg" alt="Now: building a 10-agent system, running it on Claude Code and Copilot CLI, shipping gated upstream fixes" width="720">
+  </picture>
 </p>
 
-</div>
-
----
-
-### 🚀 What I Build
-
-- **Software and developer platforms:** High-quality applications, APIs,
-  systems utilities, and developer tools across C, TypeScript, Node.js, and
-  Python.
-- **Intelligent automation:** Playwright/MCP integrations, deterministic
-  multi-agent workflows, continuity-preserving task orchestration, and
-  high-capability review gates around bounded routine execution.
-- **Cloud reliability and security:** Containerized infrastructure, AWS
-  reliability and compliance engineering, threat modeling, and defensive
-  hardening for distributed systems.
-- **Delivery acceleration:** Testable CI/CD automation and media-processing
-  pipelines that turn complex operations into dependable workflows.
-
----
-
-### 🛠️ Tech Stack & Ecosystems
-
-<p align="left">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-  <br/>
-  <!-- Cloud & Automation -->
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" height="22" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" height="22" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" height="22" alt="Node.js">
+  <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" height="22" alt="C">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" height="22" alt="Bash">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white" height="22" alt="AWS">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" height="22" alt="Docker">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" height="22" alt="Playwright">
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white" height="22" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Copilot_CLI-000000?style=flat&logo=githubcopilot&logoColor=white" height="22" alt="Copilot CLI">
 </p>
 
 ---
 
-### 🏆 Selected Public Work
+Engineer in Los Angeles / Long Beach. I build software that has to be trusted
+before it's clever: multi-agent systems with real approval gates, cloud
+automation that fails loudly, and fixes that arrive with the test that proves
+them.
 
-**Projects**
+## What I work on
 
-- **[LLMOps Infra Guide](https://github.com/OBOneProtocol/llmops-infra-guide)**
-  — local-LLM Dockerfile-generation prototype that detects project stacks and
-  uses Docker build feedback for iterative correction. Documented samples cover
-  Flask, Node.js, and Go.
+**Agent systems people can actually supervise.** Most of my time goes to the
+parts that decide whether an AI system is safe to leave running: who is allowed
+to act, what happens when a step fails, and how a person stays in the loop
+without reading every log.
 
-**Merged contributions**
+**Upstream fixes, evidence first.** Before I touch someone else's project I
+check that the issue is real, unclaimed and wanted, read the contribution
+rules, and write the failing test. Then the fix.
 
-- **[Career Ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**
-  — added project-scoped Playwright MCP detection with precedence-aware
-  configuration and regression coverage.
-- **[Career Ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
-  — hardened context-budget prompt assembly and tracker-path handling.
+**Cloud and defensive security.** Container builds, AWS reliability work,
+threat modelling, and hardening the boring paths attackers like best.
 
-**Open pull request**
+## The system I run
 
-- **[Prowler #12722](https://github.com/prowler-cloud/prowler/pull/12722)** —
-  handles KMS `ListKeys` scan errors and prevents unverified cross-service
-  failures.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/swarm-dark.svg">
+    <img src="assets/swarm-light.svg" alt="Owner approves outside actions; Forge, the personal agent, briefs CLOUD, the swarm lead, which assigns eight specialists" width="880">
+  </picture>
+</p>
+
+- **One agent talks to me.** Forge holds my priorities and turns decisions
+  into plain English. CLOUD runs the swarm and reports back to Forge in a fixed
+  format, so nothing gets lost between them.
+- **Nothing leaves the machine without me.** Pushes, PRs, posts and purchases
+  wait for my approval of the exact item. An agent's confidence is not approval.
+- **Cheapest model that can do the job.** The lead picks a model per task and
+  escalates only after a real, revised attempt fails. A model fallback is
+  logged, not treated as a blocker.
+- **One source, two platforms.** A single registry generates the same agents
+  for Claude Code and GitHub Copilot CLI, with tests that fail if they drift.
+
+## Selected work
+
+### [llmops-infra-guide](https://github.com/OBOneProtocol/llmops-infra-guide)
+
+A local LLM writes a Dockerfile, `docker build` judges it, and the build
+errors feed the next attempt. A small loop with a ground-truth validator;
+documented samples cover Flask, Node.js and Go.
+
+### Merged upstream
+
+- **[career-ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**
+  — detect project-scoped Playwright MCP installs, with precedence-aware config
+  and regression tests.
+- **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
+  — harden context-budget prompt assembly and tracker-path handling.
+
+## How I work, specifically
+
+- A bug report becomes a failing test before it becomes a diff
+- "Works on my machine" is an environment finding, not a fix
+- A mismatch between code and docs might be a design decision; I ask first
+- Every external action is non-idempotent until proven otherwise: gate it,
+  don't retry it
+- Notes are part of the system: decisions and lessons get written down, dated,
+  and corrected when they turn out wrong
 
 ---
 
-### 📊 GitHub Activity & Metrics
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=OBOneProtocol&theme=tokyonight" alt="GitHub Stats" height="180px" />
-  &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com/?user=OBOneProtocol&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" height="180px" />
-</div>
-
----
-
-<div align="center">
-  <sub>⚡ <i>"Engineer modular systems, automate the tedious, and verify everything with rigorous tests."</i></sub>
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/oboneprotocol"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="22" alt="LinkedIn"></a>
+</p>
