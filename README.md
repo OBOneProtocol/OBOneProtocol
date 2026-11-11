@@ -82,6 +82,28 @@ documented samples cover Flask, Node.js and Go.
 - **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
   — harden context-budget prompt assembly and tracker-path handling.
 
+### In review upstream (opened November 2026)
+
+Each one started from an unclaimed issue, has a regression test that fails
+before the change, and follows the project's contribution rules.
+
+- **[mypy #22438](https://github.com/python/mypy/pull/22438)**
+  — treat writable callable attributes as invariant in PEP 695 variance
+  inference; mypy_primer shows no change on its open-source corpus.
+- **[ruff #30317](https://github.com/astral-sh/ruff/pull/30317)**
+  — `F402`: report loop variables that shadow imports inside conditional
+  branches, matching pyflakes (preview-gated).
+- **[ruff #30318](https://github.com/astral-sh/ruff/pull/30318)**
+  — `PLW0406`: report `from <module> import` of the current module, matching
+  pylint (preview-gated).
+- **[conductor #1831](https://github.com/conductor-oss/conductor/pull/1831)**
+  — keep the MySQL queue's unack sweep running after one failed run, so a
+  dropped connection no longer strands workflows until restart (mirrors the
+  Postgres fix).
+- **[agent-browser #2549](https://github.com/vercel-labs/agent-browser/pull/2549)**
+  — make `frame "#selector"` resolve cross-origin iframes, with an end-to-end
+  test against real Chrome.
+
 ## How I work, specifically
 
 - A bug report becomes a failing test before it becomes a diff
