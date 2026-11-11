@@ -43,8 +43,8 @@ without reading every log.
 check that the issue is real, unclaimed and wanted, read the contribution
 rules, and write the failing test. Then the fix.
 
-**Cloud and defensive security.** Container builds, AWS reliability work,
-threat modelling, and hardening the boring paths attackers like best.
+**Cloud and defensive security.** Container builds, AWS reliability work, threat modelling and hardening of
+common attack paths.
 
 ## The system I run
 
