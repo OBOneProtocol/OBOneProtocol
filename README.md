@@ -8,7 +8,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg">
-    <img src="assets/now-light.svg" alt="Now: building a 10-agent system, running it on Claude Code and Copilot CLI, shipping gated upstream fixes" width="720">
+    <img src="assets/now-light.svg" alt="Now: building a 10-agent system people can supervise, prototyping an AI-assisted IT service desk, shipping gated upstream fixes" width="720">
   </picture>
 </p>
 
@@ -48,8 +48,7 @@ common attack paths.
 
 ## The system I run
 
-A team of AI agents on Claude Code and GitHub Copilot CLI, run the way a good
-service desk runs:
+A team of AI agents, run the way a good service desk runs:
 
 - **Nothing leaves the machine without me.** Pull requests to other people's
   projects and anything that spends money wait for my approval of the exact
