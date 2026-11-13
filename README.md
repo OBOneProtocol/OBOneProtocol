@@ -84,21 +84,22 @@ documented samples cover Flask, Node.js and Go.
 
 ### In review upstream (opened November 2026)
 
-- **[mypy #22438](https://github.com/python/mypy/pull/22438)**
-  — treat writable callable attributes as invariant in PEP 695 variance
-  inference.
-- **[ruff #30317](https://github.com/astral-sh/ruff/pull/30317)**
-  — `F402`: report loop variables that shadow imports inside conditional
-  branches, matching pyflakes (preview-gated).
-- **[ruff #30318](https://github.com/astral-sh/ruff/pull/30318)**
-  — `PLW0406`: report `from <module> import` of the current module, matching
-  pylint (preview-gated).
 - **[conductor #1831](https://github.com/conductor-oss/conductor/pull/1831)**
   — keep the MySQL queue's unack sweep running after one failed run, so a
-  dropped connection doesn't strand workflows until restart.
+  dropped connection doesn't strand workflows until restart. Review feedback
+  addressed; waiting on a maintainer.
 - **[agent-browser #2549](https://github.com/vercel-labs/agent-browser/pull/2549)**
   — let `frame "#selector"` resolve cross-origin iframes, with an end-to-end
   test against real Chrome.
+
+### Building now (private)
+
+- **An AI-assisted IT service desk prototype.** Agents take intake, triage
+  and a first fix; a reviewer gets one retry before the ticket goes to a
+  person, and privileged actions such as a password reset wait for a human
+  approver.
+- **A supervision panel for my own agent team.** Stop keeps the session, take
+  over hands it to a person at the same point, and every run leaves a report.
 
 ## How I work, specifically
 
