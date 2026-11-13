@@ -48,23 +48,16 @@ common attack paths.
 
 ## The system I run
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/swarm-dark.svg">
-    <img src="assets/swarm-light.svg" alt="Owner approves outside actions; Forge, the personal agent, briefs CLOUD, the swarm lead, which assigns eight specialists" width="880">
-  </picture>
-</p>
+A team of AI agents on Claude Code and GitHub Copilot CLI, run the way a good
+service desk runs:
 
-- **One agent talks to me.** Forge holds my priorities and turns decisions
-  into plain English. CLOUD runs the swarm and reports back to Forge in a fixed
-  format, so nothing gets lost between them.
-- **Nothing leaves the machine without me.** Pushes, PRs, posts and purchases
-  wait for my approval of the exact item. An agent's confidence is not approval.
-- **Cheapest model that can do the job.** The lead picks a model per task and
-  escalates only after a real, revised attempt fails. A model fallback is
-  logged, not treated as a blocker.
-- **One source, two platforms.** A single registry generates the same agents
-  for Claude Code and GitHub Copilot CLI, with tests that fail if they drift.
+- **Nothing leaves the machine without me.** Pull requests to other people's
+  projects and anything that spends money wait for my approval of the exact
+  item. An agent's confidence is not approval.
+- **Checked work.** The final reviewer reruns the tests and reads the diff
+  itself. A summary from another agent isn't evidence.
+- **Human take-over.** Any run can be stopped and handed to a person at the
+  same point, with its history intact.
 
 ## Selected work
 
