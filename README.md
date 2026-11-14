@@ -74,6 +74,10 @@ documented samples cover Flask, Node.js and Go.
   and regression tests.
 - **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
   — harden context-budget prompt assembly and tracker-path handling.
+- **[ttt #1601](https://github.com/eugenioenko/ttt/pull/1601)**
+  — new untitled files now follow the editor's `insertSpaces` and `tabSize`
+  settings, with a regression test and a before-and-after check on the real
+  binary.
 
 ### In review upstream (opened November 2026)
 
@@ -101,6 +105,8 @@ documented samples cover Flask, Node.js and Go.
 - A mismatch between code and docs might be a design decision; I ask first
 - Every external action is non-idempotent until proven otherwise: gate it,
   don't retry it
+- If someone else claims an issue first, my fix stays local, even when it's
+  finished
 - Notes are part of the system: decisions and lessons get written down, dated,
   and corrected when they turn out wrong
 
