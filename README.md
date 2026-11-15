@@ -69,15 +69,22 @@ documented samples cover Flask, Node.js and Go.
 
 ### Merged upstream
 
+- **[career-ops #7098](https://github.com/career-ops-hq/career-ops/pull/7098)**
+  — the updater no longer reports "up to date" on the main channel when the
+  lookup of main's commit fails (a rate limit, say); it reports drift instead,
+  with a test that fakes the failed lookup.
+- **[sure #5038](https://github.com/we-promise/sure/pull/5038)**
+  — stored Brandfetch logos now render with the current client id, so changing
+  it in settings fixes existing merchant and security logos without a backfill.
+- **[ttt #1601](https://github.com/eugenioenko/ttt/pull/1601)**
+  — new untitled files now follow the editor's `insertSpaces` and `tabSize`
+  settings, with a regression test and a before-and-after check on the real
+  binary.
 - **[career-ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**
   — detect project-scoped Playwright MCP installs, with precedence-aware config
   and regression tests.
 - **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
   — harden context-budget prompt assembly and tracker-path handling.
-- **[ttt #1601](https://github.com/eugenioenko/ttt/pull/1601)**
-  — new untitled files now follow the editor's `insertSpaces` and `tabSize`
-  settings, with a regression test and a before-and-after check on the real
-  binary.
 
 ### In review upstream (opened November 2026)
 
