@@ -34,9 +34,9 @@ them.
 
 ## What I work on
 
-**Agent systems people can actually supervise.** Most of my time goes to the
+**Agent systems people can supervise.** Most of my time goes to the
 parts that decide whether an AI system is safe to leave running: who is allowed
-to act, what happens when a step fails, and how a person stays in the loop
+to act, what happens when a step fails, and how a person stays in the lead
 without reading every log.
 
 **Upstream fixes, evidence first.** Before I touch someone else's project I
@@ -48,19 +48,18 @@ common attack paths.
 
 ## The system I run
 
-A 10-agent team that runs on Claude Code and GitHub Copilot CLI, among other
-tools. I run it the way a good service desk runs:
+A 10-agent team that runs on Claude Code and Copilot CLI, among other tools. I run it the way a good service desk runs:
 
-- **Human in the lead.** Nothing leaves the machine without me. Pull requests
+- **Human in the lead.** Nothing goes public without me. Pull requests
   to other people's projects and anything that spends money wait for my
   approval of the exact item. An agent's confidence is not approval.
 - **Checked work.** The final reviewer reruns the tests and reads the diff
   itself. A summary from another agent isn't evidence.
-- **Examined fixes, not retries.** When work fails, an agent gets up to three
-  more fixes, and each one starts by writing down what failed, the likely
-  cause and what it will change. With nothing new to try, it stops and hands
-  me the evidence.
-- **Human take-over.** Any run can be stopped and handed to a person at the
+- **Examined fixes, not retries.** When a step fails, the agent writes down
+  what failed, the likely cause and what the next fix will change, then makes
+  that fix, up to three times. With nothing new to try, it stops and hands me
+  the evidence.
+- **Take-over.** Any run can be stopped and handed to a person at the
   same point, with its history intact.
 
 ## Selected work
@@ -107,8 +106,8 @@ documented samples cover Flask, Node.js and Go.
   each built on the reviewer's note of what failed, why, and what to change,
   before the ticket goes to a person. Privileged actions such as a password
   reset wait for a human approver.
-- **A supervision panel for my own agent team.** Stop keeps the session, take
-  over hands it to a person at the same point, and every run leaves a report.
+- **A control panel for my own agent team.** Stop a run, keep its session,
+  and read the report every run leaves.
 
 ## How I work, specifically
 
