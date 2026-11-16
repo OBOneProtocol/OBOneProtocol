@@ -51,11 +51,15 @@ common attack paths.
 A 10-agent team that runs on Claude Code and GitHub Copilot CLI, among other
 tools. I run it the way a good service desk runs:
 
-- **Nothing leaves the machine without me.** Pull requests to other people's
-  projects and anything that spends money wait for my approval of the exact
-  item. An agent's confidence is not approval.
+- **Human in the lead.** Nothing leaves the machine without me. Pull requests
+  to other people's projects and anything that spends money wait for my
+  approval of the exact item. An agent's confidence is not approval.
 - **Checked work.** The final reviewer reruns the tests and reads the diff
   itself. A summary from another agent isn't evidence.
+- **Examined fixes, not retries.** When work fails, an agent gets up to three
+  more fixes, and each one starts by writing down what failed, the likely
+  cause and what it will change. With nothing new to try, it stops and hands
+  me the evidence.
 - **Human take-over.** Any run can be stopped and handed to a person at the
   same point, with its history intact.
 
@@ -99,9 +103,10 @@ documented samples cover Flask, Node.js and Go.
 ### Building now (private)
 
 - **An AI-assisted IT service desk prototype.** Agents take intake, triage
-  and a first fix; a reviewer gets one retry before the ticket goes to a
-  person, and privileged actions such as a password reset wait for a human
-  approver.
+  and a first fix. A fix that fails review gets up to three examined fixes,
+  each built on the reviewer's note of what failed, why, and what to change,
+  before the ticket goes to a person. Privileged actions such as a password
+  reset wait for a human approver.
 - **A supervision panel for my own agent team.** Stop keeps the session, take
   over hands it to a person at the same point, and every run leaves a report.
 
