@@ -8,7 +8,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg">
-    <img src="assets/now-light.svg" alt="Now: building a supervised 10-agent system and an AI service desk prototype, running it on Claude Code and Copilot CLI among other tools, shipping gated upstream fixes" width="720">
+    <img src="assets/now-light.svg" alt="Now: building a supervised 10-agent system and an AI service desk prototype, running it on Claude Code and Copilot CLI among other tools, shipping gated upstream fixes" width="880">
   </picture>
 </p>
 
