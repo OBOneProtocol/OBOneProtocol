@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-    <img src="assets/header-light.svg" alt="Jesse / O-B-ONE — cloud and application engineer, multi-agent AI systems, defensive security" width="880">
+    <img src="assets/header-light.svg" alt="Jesse / O-B-ONE: cloud and application engineer, multi-agent AI systems, defensive security" width="880">
   </picture>
 </p>
 
@@ -27,99 +27,103 @@
 
 ---
 
-Engineer in Los Angeles / Long Beach. I build software that has to be trusted
-before it's clever: multi-agent systems with real approval gates, cloud
-automation that fails loudly, and fixes that arrive with the test that proves
-them.
+Cloud and application engineer in the Los Angeles / Long Beach area. I design
+multi-agent AI systems with enforced approval gates, build cloud automation that
+surfaces failures instead of masking them, and ship upstream fixes backed by
+regression tests.
 
 ## What I work on
 
-**Agent systems people can supervise.** Most of my time goes to the
-parts that decide whether an AI system is safe to leave running: who is allowed
-to act, what happens when a step fails, and how a person stays in the lead
-without reading every log.
+**Supervised agent systems.** Permission boundaries for agent actions, failure
+handling that recovers or halts in a known state, and oversight that keeps a
+human in the lead through approval gates and per-run reports instead of log
+review.
 
-**Upstream fixes, evidence first.** Before I touch someone else's project I
-check that the issue is real, unclaimed and wanted, read the contribution
-rules, and write the failing test. Then the fix.
+**Upstream contributions.** Every fix starts with evidence: reproduce the
+issue, confirm it is unclaimed and that maintainers want it, follow the
+project's contribution and AI policies, and land a failing regression test
+before changing code.
 
-**Cloud and defensive security.** Container builds, AWS reliability work, threat modelling and hardening of
-common attack paths.
+**Cloud and defensive security.** Container build pipelines, AWS reliability,
+threat modeling, and hardening against common attack paths: prompt injection,
+over-privileged CI tokens, unpinned dependencies.
 
 ## The system I run
 
-A 10-agent team that runs on Claude Code and Copilot CLI, among other tools. I run it the way a good service desk runs:
+A 10-agent system, a lead orchestrator with specialist roles, running on Claude
+Code and Copilot CLI, among other tools. Its operating model borrows from IT
+service management:
 
-- **Human in the lead.** Nothing goes public without me. Pull requests
-  to other people's projects and anything that spends money wait for my
-  approval of the exact item. An agent's confidence is not approval.
-- **Checked work.** The final reviewer reruns the tests and reads the diff
-  itself. A summary from another agent isn't evidence.
-- **Examined fixes, not retries.** When a step fails, the agent writes down
-  what failed, the likely cause and what the next fix will change, then makes
-  that fix, up to three times. With nothing new to try, it stops and hands me
-  the evidence.
-- **Take-over.** Any run can be stopped and handed to a person at the
-  same point, with its history intact.
+- **Human in the lead.** External writes (pull requests, public posts,
+  anything that spends money) are gated on my approval of the exact item.
+  Agent confidence is not authorization.
+- **Independent verification.** The final reviewer reruns the test suite and
+  reads the diff directly. A summary from another agent is not evidence.
+- **Examined fixes, not blind retries.** On failure, the agent records what
+  failed, the likely root cause and what the next attempt changes, bounded at
+  three attempts. With no new hypothesis, it halts and escalates with the
+  evidence.
+- **Resumable take-over.** Any run can be stopped and handed to a person at
+  the same step, with its session history intact.
 
 ## Selected work
 
 ### [llmops-infra-guide](https://github.com/OBOneProtocol/llmops-infra-guide)
 
-A local LLM writes a Dockerfile, `docker build` judges it, and the build
-errors feed the next attempt. A small loop with a ground-truth validator;
-documented samples cover Flask, Node.js and Go.
+A generate-and-validate loop: an LLM drafts a Dockerfile, `docker build`
+acts as the ground-truth validator, and build errors feed the next attempt.
+Documented samples cover Flask, Node.js and Go.
 
 ### Merged upstream
 
-- **[career-ops #7098](https://github.com/career-ops-hq/career-ops/pull/7098)**
-  — the updater no longer reports "up to date" on the main channel when the
-  lookup of main's commit fails (a rate limit, say); it reports drift instead,
-  with a test that fakes the failed lookup.
-- **[sure #5038](https://github.com/we-promise/sure/pull/5038)**
-  — stored Brandfetch logos now render with the current client id, so changing
-  it in settings fixes existing merchant and security logos without a backfill.
-- **[ttt #1601](https://github.com/eugenioenko/ttt/pull/1601)**
-  — new untitled files now follow the editor's `insertSpaces` and `tabSize`
-  settings, with a regression test and a before-and-after check on the real
-  binary.
-- **[career-ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**
-  — detect project-scoped Playwright MCP installs, with precedence-aware config
-  and regression tests.
-- **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**
-  — harden context-budget prompt assembly and tracker-path handling.
+- **[career-ops #7098](https://github.com/career-ops-hq/career-ops/pull/7098)**:
+  the updater reported "up to date" on the main channel when the commit
+  lookup failed (an API rate limit, for example). It now reports drift; a test
+  stubs the failed lookup.
+- **[sure #5038](https://github.com/we-promise/sure/pull/5038)**:
+  stored Brandfetch logo URLs resolve with the current client ID, so rotating
+  the ID in settings repairs existing merchant and security logos without a
+  data backfill.
+- **[ttt #1601](https://github.com/eugenioenko/ttt/pull/1601)**:
+  new untitled buffers inherit the editor's `insertSpaces` and `tabSize`
+  settings, covered by a regression test and verified against the built binary.
+- **[career-ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**:
+  detect project-scoped Playwright MCP installs, with precedence-aware config
+  resolution and regression tests.
+- **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**:
+  harden context-budget prompt assembly and tracker-path handling.
 
 ### In review upstream (opened November 2026)
 
-- **[conductor #1831](https://github.com/conductor-oss/conductor/pull/1831)**
-  — keep the MySQL queue's unack sweep running after one failed run, so a
-  dropped connection doesn't strand workflows until restart. Review feedback
-  addressed; waiting on a maintainer.
-- **[agent-browser #2549](https://github.com/vercel-labs/agent-browser/pull/2549)**
-  — let `frame "#selector"` resolve cross-origin iframes, with an end-to-end
-  test against real Chrome.
+- **[conductor #1831](https://github.com/conductor-oss/conductor/pull/1831)**:
+  keep the MySQL queue's unack sweep scheduled after a failed run, so a
+  dropped database connection no longer strands workflows until restart.
+  Review feedback addressed; awaiting maintainer review.
+- **[agent-browser #2549](https://github.com/vercel-labs/agent-browser/pull/2549)**:
+  `frame "#selector"` resolves cross-origin iframes, covered by an
+  end-to-end test against real Chrome.
 
 ### Building now (private)
 
-- **An AI-assisted IT service desk prototype.** Agents take intake, triage
-  and a first fix. A fix that fails review gets up to three examined fixes,
-  each built on the reviewer's note of what failed, why, and what to change,
-  before the ticket goes to a person. Privileged actions such as a password
-  reset wait for a human approver.
-- **A control panel for my own agent team.** Stop a run, keep its session,
-  and read the report every run leaves.
+- **AI-assisted IT service desk.** Agents handle intake, triage and
+  first-line remediation. A fix that fails review gets up to three examined
+  fixes, each driven by the reviewer's findings, before the ticket escalates
+  to a technician. Privileged actions such as password resets require a human
+  approver.
+- **Operator console for the agent team.** Halt a run, preserve its session,
+  and review the report every run produces.
 
-## How I work, specifically
+## Engineering principles
 
-- A bug report becomes a failing test before it becomes a diff
-- "Works on my machine" is an environment finding, not a fix
-- A mismatch between code and docs might be a design decision; I ask first
+- A bug report becomes a failing test before it becomes a diff.
+- "Works on my machine" is an environment finding, not a fix.
+- A mismatch between code and docs may be intentional; I confirm with the
+  maintainers before changing either.
 - Every external action is non-idempotent until proven otherwise: gate it,
-  don't retry it
-- If someone else claims an issue first, my fix stays local, even when it's
-  finished
-- Notes are part of the system: decisions and lessons get written down, dated,
-  and corrected when they turn out wrong
+  don't retry it.
+- If another contributor claims an issue first, my fix stays local.
+- Decisions and lessons are written down, dated, and revised when they prove
+  wrong.
 
 ---
 
