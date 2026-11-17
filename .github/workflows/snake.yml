@@ -1,4 +1,4 @@
-name: Contribution snake
+name: Contribution snake and impact card
 
 on:
   schedule:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
@@ -37,6 +37,15 @@ jobs:
             dist/github-contribution-grid-snake.svg light \
             dist/github-contribution-grid-snake-dark.svg dark
 
+      - name: Rebuild the impact card from live PR counts
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LOGIN: ${{ github.repository_owner }}
+        run: |
+          python3 scripts/impact_card.py "$LOGIN" \
+            assets/impact-light.svg dist/impact-light.svg \
+            assets/impact-dark.svg dist/impact-dark.svg
+
       - name: Publish to the output branch
         env:
           REPO: ${{ github.repository }}
@@ -47,5 +56,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -q -m "Update contribution snake"
+          git commit -q -m "Update contribution snake and impact card"
           git push -f "https://x-access-token:${TOKEN}@github.com/${REPO}.git" output
