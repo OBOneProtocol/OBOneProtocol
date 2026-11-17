@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="744" height="176" viewBox="0 0 744 176" role="img" aria-labelledby="t">
-<title id="t">Now: building a supervised 10-agent system and an AI service desk prototype; running it on Claude Code and Copilot CLI, among other tools; shipping gated upstream fixes.</title>
+<title id="t">Now: building a supervised multi-agent system and an AI service desk prototype; running it on Claude Code and Copilot CLI, among other tools; shipping gated upstream fixes.</title>
 <style>
 .row{animation:in .5s ease-out both,type .9s steps(34,end) both}
 @keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
@@ -12,7 +12,7 @@
 <circle cx="24" cy="22" r="5" fill="#ff5f57"/><circle cx="42" cy="22" r="5" fill="#febc2e"/><circle cx="60" cy="22" r="5" fill="#28c840"/>
 <text x="372" y="26" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8b949e">now.md — updated Nov 2026</text>
 <line x1="0" y1="40" x2="744" y2="40" stroke="#30363d"/>
-<g class="row" style="animation-delay:0.20s"><text x="34" y="66" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#58a6ff" font-weight="700">building </tspan><tspan fill="#e6edf3"> a supervised 10-agent system and an AI service desk prototype</tspan></text></g>
+<g class="row" style="animation-delay:0.20s"><text x="34" y="66" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#58a6ff" font-weight="700">building </tspan><tspan fill="#e6edf3"> a supervised multi-agent system and an AI service desk prototype</tspan></text></g>
 <g class="row" style="animation-delay:0.55s"><text x="34" y="92" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#d2a8ff" font-weight="700">running  </tspan><tspan fill="#e6edf3"> it on Claude Code and Copilot CLI, among other tools</tspan></text></g>
 <g class="row" style="animation-delay:0.90s"><text x="34" y="118" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#3fb950" font-weight="700">shipping </tspan><tspan fill="#e6edf3"> upstream fixes that pass an eligibility gate, a regression test and my review</tspan></text></g>
 <g class="row" style="animation-delay:1.25s"><text x="34" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#8b949e" font-weight="700">learning </tspan><tspan fill="#e6edf3"> how to make agent work cheap to check and easy to hand off</tspan><tspan class="cur" fill="#58a6ff"> █</tspan></text></g>

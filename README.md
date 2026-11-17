@@ -8,7 +8,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg">
-    <img src="assets/now-light.svg" alt="Now: building a supervised 10-agent system and an AI service desk prototype, running it on Claude Code and Copilot CLI among other tools, shipping gated upstream fixes" width="744">
+    <img src="assets/now-light.svg" alt="Now: building a supervised multi-agent system and an AI service desk prototype, running it on Claude Code and Copilot CLI among other tools, shipping gated upstream fixes" width="744">
   </picture>
 </p>
 
@@ -101,7 +101,7 @@ over-privileged CI tokens, unpinned dependencies.
 
 ## The system I run
 
-A 10-agent system, a lead orchestrator with specialist roles, running on Claude
+A multi-agent system, a lead orchestrator with specialist roles, running on Claude
 Code and Copilot CLI, among other tools. Its operating model borrows from IT
 service management.
 
@@ -155,5 +155,6 @@ service management.
 ---
 
 <p align="center">
+  <a href="https://oboneprotocol.github.io"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=flat&logo=githubpages&logoColor=white" height="22" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/oboneprotocol"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="22" alt="LinkedIn"></a>
 </p>
