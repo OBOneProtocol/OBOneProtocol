@@ -52,7 +52,14 @@ over-privileged CI tokens, unpinned dependencies.
 
 A 10-agent system, a lead orchestrator with specialist roles, running on Claude
 Code and Copilot CLI, among other tools. Its operating model borrows from IT
-service management:
+service management.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/system-dark.svg">
+    <img src="assets/system-light.svg" alt="Flow diagram: a human in the lead briefs a personal agent, which briefs a lead orchestrator. The orchestrator fans work out to four specialists (build and test, security review, reproduction, product and content). Verified results return through an approval gate to the human." width="880">
+  </picture>
+</p>
 
 - **Human in the lead.** External writes (pull requests, public posts,
   anything that spends money) are gated on my approval of the exact item.
@@ -124,6 +131,13 @@ Documented samples cover Flask, Node.js and Go.
 - If another contributor claims an issue first, my fix stays local.
 - Decisions and lessons are written down, dated, and revised when they prove
   wrong.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OBOneProtocol/OBOneProtocol/output/github-contribution-grid-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/OBOneProtocol/OBOneProtocol/output/github-contribution-grid-snake.svg" alt="Contribution graph animated as a snake eating the contribution squares" width="880">
+  </picture>
+</p>
 
 ---
 
