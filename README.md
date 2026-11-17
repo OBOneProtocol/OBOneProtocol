@@ -8,7 +8,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg">
-    <img src="assets/now-light.svg" alt="Now: building a supervised 10-agent system and an AI service desk prototype, running it on Claude Code and Copilot CLI among other tools, shipping gated upstream fixes" width="880">
+    <img src="assets/now-light.svg" alt="Now: building a supervised 10-agent system and an AI service desk prototype, running it on Claude Code and Copilot CLI among other tools, shipping gated upstream fixes" width="744">
   </picture>
 </p>
 
@@ -33,13 +33,6 @@ surfaces failures instead of masking them, and ship upstream fixes backed by
 regression tests.
 
 **Open to:** AI automation, cloud security and technical support roles · Los Angeles / Long Beach area or remote
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/impact-dark.svg">
-    <img src="assets/impact-light.svg" alt="Impact: 5 merged upstream pull requests; 100K+ GitHub stars across projects with my merged fixes; 2 pull requests in review on projects with 85K stars" width="880">
-  </picture>
-</p>
 
 ## Selected work
 
@@ -113,7 +106,7 @@ service management.
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/system-dark.svg">
-    <img src="assets/system-light.svg" alt="Flow diagram: a human in the lead briefs a personal agent, which briefs a lead orchestrator. The orchestrator fans work out to four specialists (build and test, security review, reproduction, product and content). Verified results return through an approval gate to the human." width="880">
+    <img src="assets/system-light.svg" alt="Flow diagram: a human in the lead briefs a personal agent, which briefs a lead orchestrator. The orchestrator fans work out to four specialists (build and test, security review, reproduction, product and content). Each specialist returns its verified result through an approval gate to the human." width="880">
   </picture>
 </p>
 
@@ -141,10 +134,19 @@ service management.
 - Decisions and lessons are written down, dated, and revised when they prove
   wrong.
 
+## Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/impact-dark.svg">
+    <img src="assets/impact-light.svg" alt="Impact: 5 merged upstream pull requests; 3 open-source projects with merged fixes; 2 pull requests awaiting maintainer review" width="880">
+  </picture>
+</p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OBOneProtocol/OBOneProtocol/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/OBOneProtocol/OBOneProtocol/output/github-contribution-grid-snake.svg" alt="Contribution graph animated as a snake eating the contribution squares" width="880">
+    <img src="https://raw.githubusercontent.com/OBOneProtocol/OBOneProtocol/output/github-contribution-grid-snake.svg" alt="My GitHub contribution graph for the last year, with a snake eating the days I contributed" width="880">
   </picture>
 </p>
 

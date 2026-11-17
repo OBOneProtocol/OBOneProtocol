@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
@@ -24,6 +26,16 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Add month labels, legend and a hold before the snake starts
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LOGIN: ${{ github.repository_owner }}
+        run: |
+          gh api graphql -f login="$LOGIN" -f query='query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{totalContributions weeks{firstDay}}}}}' > calendar.json
+          python3 scripts/snake_frame.py calendar.json \
+            dist/github-contribution-grid-snake.svg light \
+            dist/github-contribution-grid-snake-dark.svg dark
 
       - name: Publish to the output branch
         env:
