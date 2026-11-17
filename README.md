@@ -32,6 +32,62 @@ multi-agent AI systems with enforced approval gates, build cloud automation that
 surfaces failures instead of masking them, and ship upstream fixes backed by
 regression tests.
 
+**Open to:** AI automation, cloud security and technical support roles · Los Angeles / Long Beach area or remote
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/impact-dark.svg">
+    <img src="assets/impact-light.svg" alt="Impact: 5 merged upstream pull requests; 100K+ GitHub stars across projects with my merged fixes; 2 pull requests in review on projects with 85K stars" width="880">
+  </picture>
+</p>
+
+## Selected work
+
+### [llmops-infra-guide](https://github.com/OBOneProtocol/llmops-infra-guide)
+
+A generate-and-validate loop: an LLM drafts a Dockerfile, `docker build`
+acts as the ground-truth validator, and build errors feed the next attempt.
+Documented samples cover Flask, Node.js and Go.
+
+### Merged upstream
+
+- **[career-ops #7098](https://github.com/career-ops-hq/career-ops/pull/7098)** <img src="https://img.shields.io/github/stars/career-ops-hq/career-ops?style=flat&logo=github&label=stars&color=555" height="18" alt="career-ops-hq/career-ops stars"> <img src="https://img.shields.io/github/pulls/detail/state/career-ops-hq/career-ops/7098?style=flat&label=PR" height="18" alt="PR #7098 state"><br>
+  The updater reported "up to date" on the main channel when the commit
+  lookup failed (an API rate limit, for example). It now reports drift; a test
+  stubs the failed lookup.
+- **[sure #5038](https://github.com/we-promise/sure/pull/5038)** <img src="https://img.shields.io/github/stars/we-promise/sure?style=flat&logo=github&label=stars&color=555" height="18" alt="we-promise/sure stars"> <img src="https://img.shields.io/github/pulls/detail/state/we-promise/sure/5038?style=flat&label=PR" height="18" alt="PR #5038 state"><br>
+  Stored Brandfetch logo URLs resolve with the current client ID, so rotating
+  the ID in settings repairs existing merchant and security logos without a
+  data backfill.
+- **[ttt #1601](https://github.com/eugenioenko/ttt/pull/1601)** <img src="https://img.shields.io/github/stars/eugenioenko/ttt?style=flat&logo=github&label=stars&color=555" height="18" alt="eugenioenko/ttt stars"> <img src="https://img.shields.io/github/pulls/detail/state/eugenioenko/ttt/1601?style=flat&label=PR" height="18" alt="PR #1601 state"><br>
+  New untitled buffers inherit the editor's `insertSpaces` and `tabSize`
+  settings, covered by a regression test and verified against the built binary.
+- **[career-ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)** <img src="https://img.shields.io/github/stars/career-ops-hq/career-ops?style=flat&logo=github&label=stars&color=555" height="18" alt="career-ops-hq/career-ops stars"> <img src="https://img.shields.io/github/pulls/detail/state/career-ops-hq/career-ops/3711?style=flat&label=PR" height="18" alt="PR #3711 state"><br>
+  Detect project-scoped Playwright MCP installs, with precedence-aware config
+  resolution and regression tests.
+- **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)** <img src="https://img.shields.io/github/stars/career-ops-hq/career-ops?style=flat&logo=github&label=stars&color=555" height="18" alt="career-ops-hq/career-ops stars"> <img src="https://img.shields.io/github/pulls/detail/state/career-ops-hq/career-ops/3591?style=flat&label=PR" height="18" alt="PR #3591 state"><br>
+  Harden context-budget prompt assembly and tracker-path handling.
+
+### In review upstream (opened November 2026)
+
+- **[conductor #1831](https://github.com/conductor-oss/conductor/pull/1831)** <img src="https://img.shields.io/github/stars/conductor-oss/conductor?style=flat&logo=github&label=stars&color=555" height="18" alt="conductor-oss/conductor stars"> <img src="https://img.shields.io/github/pulls/detail/state/conductor-oss/conductor/1831?style=flat&label=PR" height="18" alt="PR #1831 state"><br>
+  Keep the MySQL queue's unack sweep scheduled after a failed run, so a
+  dropped database connection no longer strands workflows until restart.
+  Review feedback addressed; awaiting maintainer review.
+- **[agent-browser #2549](https://github.com/vercel-labs/agent-browser/pull/2549)** <img src="https://img.shields.io/github/stars/vercel-labs/agent-browser?style=flat&logo=github&label=stars&color=555" height="18" alt="vercel-labs/agent-browser stars"> <img src="https://img.shields.io/github/pulls/detail/state/vercel-labs/agent-browser/2549?style=flat&label=PR" height="18" alt="PR #2549 state"><br>
+  `frame "#selector"` resolves cross-origin iframes, covered by an
+  end-to-end test against real Chrome.
+
+### Building now (private)
+
+- **AI-assisted IT service desk.** Agents handle intake, triage and
+  first-line remediation. A fix that fails review gets up to three examined
+  fixes, each driven by the reviewer's findings, before the ticket escalates
+  to a technician. Privileged actions such as password resets require a human
+  approver.
+- **Operator console for the agent team.** Halt a run, preserve its session,
+  and review the report every run produces.
+
 ## What I work on
 
 **Supervised agent systems.** Permission boundaries for agent actions, failure
@@ -72,53 +128,6 @@ service management.
   evidence.
 - **Resumable take-over.** Any run can be stopped and handed to a person at
   the same step, with its session history intact.
-
-## Selected work
-
-### [llmops-infra-guide](https://github.com/OBOneProtocol/llmops-infra-guide)
-
-A generate-and-validate loop: an LLM drafts a Dockerfile, `docker build`
-acts as the ground-truth validator, and build errors feed the next attempt.
-Documented samples cover Flask, Node.js and Go.
-
-### Merged upstream
-
-- **[career-ops #7098](https://github.com/career-ops-hq/career-ops/pull/7098)**:
-  the updater reported "up to date" on the main channel when the commit
-  lookup failed (an API rate limit, for example). It now reports drift; a test
-  stubs the failed lookup.
-- **[sure #5038](https://github.com/we-promise/sure/pull/5038)**:
-  stored Brandfetch logo URLs resolve with the current client ID, so rotating
-  the ID in settings repairs existing merchant and security logos without a
-  data backfill.
-- **[ttt #1601](https://github.com/eugenioenko/ttt/pull/1601)**:
-  new untitled buffers inherit the editor's `insertSpaces` and `tabSize`
-  settings, covered by a regression test and verified against the built binary.
-- **[career-ops #3711](https://github.com/career-ops-hq/career-ops/pull/3711)**:
-  detect project-scoped Playwright MCP installs, with precedence-aware config
-  resolution and regression tests.
-- **[career-ops #3591](https://github.com/career-ops-hq/career-ops/pull/3591)**:
-  harden context-budget prompt assembly and tracker-path handling.
-
-### In review upstream (opened November 2026)
-
-- **[conductor #1831](https://github.com/conductor-oss/conductor/pull/1831)**:
-  keep the MySQL queue's unack sweep scheduled after a failed run, so a
-  dropped database connection no longer strands workflows until restart.
-  Review feedback addressed; awaiting maintainer review.
-- **[agent-browser #2549](https://github.com/vercel-labs/agent-browser/pull/2549)**:
-  `frame "#selector"` resolves cross-origin iframes, covered by an
-  end-to-end test against real Chrome.
-
-### Building now (private)
-
-- **AI-assisted IT service desk.** Agents handle intake, triage and
-  first-line remediation. A fix that fails review gets up to three examined
-  fixes, each driven by the reviewer's findings, before the ticket escalates
-  to a technician. Privileged actions such as password resets require a human
-  approver.
-- **Operator console for the agent team.** Halt a run, preserve its session,
-  and review the report every run produces.
 
 ## Engineering principles
 
