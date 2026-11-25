@@ -1,0 +1,19 @@
+{
+  "_about": "Impact lines for the README contributions table. PRs found by search but missing here still get a row, using the PR title. Closed-unmerged PRs never show.",
+  "notes": {
+    "career-ops-hq/career-ops": "On the project's Contributor team since November 2026.",
+    "vercel-labs/agent-browser": "My fix was folded into a maintainer PR, with co-author credit."
+  },
+  "prs": {
+    "career-ops-hq/career-ops#7098": "The updater no longer says \"up to date\" when the commit lookup fails, such as on an API rate limit. It reports drift, and a test stubs the failed lookup.",
+    "career-ops-hq/career-ops#3711": "The doctor command detects project-scoped Playwright MCP installs, resolving config in precedence order.",
+    "career-ops-hq/career-ops#3591": "Hardened context-budget prompt assembly and tracker-path handling.",
+    "we-promise/sure#5038": "Rotating the Brandfetch client ID in settings repairs every stored merchant and security logo, with no data backfill.",
+    "eugenioenko/ttt#1601": "New untitled files follow the editor's insertSpaces and tabSize settings, checked against the built binary.",
+    "vercel-labs/agent-browser#2737": "frame \"#selector\" resolves cross-origin iframes, covered by an end-to-end test in real Chrome.",
+    "conductor-oss/conductor#1831": "The MySQL queue keeps its unack sweep scheduled after a failed run, so a dropped DB connection no longer strands workflows until restart."
+  },
+  "coauthored": [
+    {"pr": "vercel-labs/agent-browser#2737", "mine": "vercel-labs/agent-browser#2549"}
+  ]
+}

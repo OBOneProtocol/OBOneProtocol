@@ -1,4 +1,4 @@
-name: Contribution snake and impact card
+name: Contribution snake, impact card and contributions table
 
 on:
   schedule:
@@ -37,14 +37,29 @@ jobs:
             dist/github-contribution-grid-snake.svg light \
             dist/github-contribution-grid-snake-dark.svg dark
 
-      - name: Rebuild the impact card from live PR counts
+      - name: Rebuild the impact card from live PR data
         env:
           GH_TOKEN: ${{ github.token }}
           LOGIN: ${{ github.repository_owner }}
         run: |
           python3 scripts/impact_card.py "$LOGIN" \
-            assets/impact-light.svg dist/impact-light.svg \
-            assets/impact-dark.svg dist/impact-dark.svg
+            light dist/impact-light.svg dark dist/impact-dark.svg
+
+      - name: Refresh the contributions table in README.md
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LOGIN: ${{ github.repository_owner }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          python3 scripts/contributions.py "$LOGIN" README.md
+          if git diff --quiet -- README.md; then
+            echo "contributions table unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -q -m "Refresh the contributions table" -- README.md
+            git push -q origin "HEAD:$BRANCH"
+          fi
 
       - name: Publish to the output branch
         env:
